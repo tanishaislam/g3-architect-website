@@ -32,7 +32,7 @@ li a{
     color: #424242;
 }
 
-.nav-title{
+.section-title{
     font-size: 2.8rem;
     font-weight: 700;
     color: #131313;
@@ -115,8 +115,13 @@ main{
     margin-bottom: 30px;
     width: 537px;
 }
-
-
+/*  facts section is start  */
+.section-discription{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+}
 
 
 
@@ -172,7 +177,22 @@ main{
         flex-direction: column;
     }
 }
-
+@media screen and (max-width: 1400px){
+    main{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .teams-discription{
+        width: 100%;
+    }
+    .teams-container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .team-img-container{
+        margin-top: 50px;
+    }
+}
 
 
 
